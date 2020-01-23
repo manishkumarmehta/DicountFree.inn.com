@@ -1,0 +1,189 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color:darkkhaki;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border-style: double;
+
+}
+#outerbox
+
+{
+  width: 2000  px;
+  overflow: hidden;
+  border-style: double;
+  border-color:gold;
+  border-bottom-color: darkgreen;
+}
+#sliderbox
+{
+    position: relative;
+    width: 7500px;
+    animation-name: manish;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    
+    
+    
+}
+#sliderbox  img
+{
+    float: left;
+    
+}
+@keyframes manish{
+    0%
+    {
+      left: 0px;  
+    }
+    16%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: -1500px;
+    }
+    36%
+    {
+        left: -1500px;
+        
+    }
+    40%
+    {
+        left: -3000px;
+    }
+    56%
+    {
+        left: -3000px;
+    }
+    60%
+    {
+        left: -4500px;
+        
+    }
+    76%
+    {
+        left: -4500px;
+    }
+    80%
+    {
+        left: -6000px;
+    }
+    96%
+    {
+        left: -6000px;
+    }
+    100%
+    {
+        left: -7500px;
+    }
+    
+}
+.btn
+{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color:green;
+    color: white;
+    cursor: pointer;
+}
+.active, btn:hover
+{
+    background-color: #666;
+}
+.menu
+{
+    background-color: darkblue;
+    border-style: double;
+    box-sizing: content-box;
+    border-color: chartreuse;
+}
+#search
+{
+    width: 300px;
+    height: 25px;
+    border-radius: 8px;
+    
+}
+#search1
+{
+    width: 60px;
+    height: 25px;
+    border-radius: 8px;
+}
+#over-me:hover
+{
+    transform: scale(1.2);
+    overflow: hidden;
+  
+
+}
+#over-me1:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+    display: inline;
+
+}
+#over-me2:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+    display: inline;
+
+}
+#over-me3:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+    display: inline;
+
+}
+#over-me4:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+    display: inline;
+
+}
+
+#over-me5:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+    display: inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
